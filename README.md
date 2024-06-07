@@ -6,11 +6,12 @@ Bem-vindo ao teste de contratação para a vaga de Desenvolvedor Front-End. Nest
 
 ## 📋 Instruções
 
-1. **Fork** este repositório para o seu GitHub.
+1. **Clone** este repositório para o seu ambiente local.
 2. Crie uma aplicação CRUD utilizando **React** ou **Vue**, seguindo o layout disponibilizado no Figma.
 3. Implemente as funcionalidades de **Criar**, **Ler**, **Atualizar** e **Deletar**.
 4. Estilize a aplicação de acordo com o layout fornecido, utilizando **HTML** e **CSS**.
-5. Após completar o teste, envie um Pull Request para este repositório.
+5. Após completar o teste, crie um repositório no seu GitHub com o nome **`teste-motocaSystems-frontEnd`** e suba o seu código para lá.
+6. Envie o link do seu repositório para nós.
 
 ## 🎨 Layout
 
@@ -31,9 +32,11 @@ Você tem **2 dias** para completar este teste a partir do momento em que o rece
 
 ## 📦 Entrega
 
-1. Após completar o teste, envie um Pull Request para este repositório.
-2. Inclua qualquer documentação adicional que julgar necessária.
-3. Certifique-se de que o código está bem comentado e fácil de entender.
+1. Após completar o teste, crie um repositório no seu GitHub com o nome **`teste-motocaSystems-frontEnd`**.
+2. Suba o código da aplicação para este repositório.
+3. Inclua qualquer documentação adicional que julgar necessária.
+4. Certifique-se de que o código está bem comentado e fácil de entender.
+5. Envie o link do repositório para nós.
 
 ## 📞 Contato
 
