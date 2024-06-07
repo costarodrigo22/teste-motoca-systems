@@ -12,6 +12,7 @@ Bem-vindo ao teste de contratação para a vaga de Desenvolvedor Front-End. Nest
 4. Estilize a aplicação de acordo com o layout fornecido, utilizando **HTML** e **CSS**. Ou se preferir, use a lib de estilização onde você sinta-se confortável.
 5. Após completar o teste, crie um repositório no seu GitHub com o nome **`teste-motocaSystems-frontEnd`** e suba o seu código para lá.
 6. Envie o link do seu repositório para nós (thalles@motoca.com.br / welliton@motoca.com.br).
+7. Envie o que você conseguir.
 
 ## 🎨 Layout
 
