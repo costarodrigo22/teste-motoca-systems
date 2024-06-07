@@ -9,9 +9,9 @@ Bem-vindo ao teste de contratação para a vaga de Desenvolvedor Front-End. Nest
 1. **Clone** este repositório para o seu ambiente local.
 2. Crie uma aplicação CRUD utilizando **React** ou **Vue**, seguindo o layout disponibilizado no Figma.
 3. Implemente as funcionalidades de **Criar**, **Ler**, **Atualizar** e **Deletar**.
-4. Estilize a aplicação de acordo com o layout fornecido, utilizando **HTML** e **CSS**.
+4. Estilize a aplicação de acordo com o layout fornecido, utilizando **HTML** e **CSS**. Ou se preferir, use a lib de estilização onde você sinta-se confortável.
 5. Após completar o teste, crie um repositório no seu GitHub com o nome **`teste-motocaSystems-frontEnd`** e suba o seu código para lá.
-6. Envie o link do seu repositório para nós.
+6. Envie o link do seu repositório para nós ().
 
 ## 🎨 Layout
 
@@ -22,7 +22,7 @@ O layout da aplicação está disponível no Figma. Certifique-se de seguir o de
 ## 📚 Requisitos
 
 - Utilize **React** ou **Vue** para construir a aplicação.
-- Utilize **HTML** e **CSS** para estilizar a aplicação. Ou se preferir, use a lib de estilização onde você sinta-se confortável.
+- Utilize **HTML** e **CSS** para estilizar a aplicação. Ou uma lib de estilização onde você sinta-se confortável.
 - A aplicação deve ser responsiva e funcionar em diferentes tamanhos de tela.
 - Implemente as operações de CRUD (Criar, Ler, Atualizar, Deletar).
 
