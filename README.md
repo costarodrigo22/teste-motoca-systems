@@ -24,7 +24,6 @@ O layout da aplicação está disponível no Figma. Certifique-se de seguir o de
 
 - Utilize **React** ou **Vue** para construir a aplicação.
 - Utilize **HTML** e **CSS** para estilizar a aplicação. Ou uma lib de estilização onde você sinta-se confortável.
-- A aplicação deve ser responsiva e funcionar em diferentes tamanhos de tela.
 - Implemente as operações de CRUD (Criar, Ler, Atualizar, Deletar).
 - Você poderá utilizar o JSON server para simular a API ou qualquer outro mock de API de sua preferência.
 
