@@ -29,7 +29,7 @@ O layout da aplicação está disponível no Figma. Certifique-se de seguir o de
 
 ## ⏰ Prazo
 
-Você tem **2 dias** para completar este teste a partir do momento em que o recebe. 
+Você tem até **17/06/2022** para completar este teste a partir do momento em que o recebe. 
 
 Será levando em consideração a qualidade e o tempo de entrega do teste. 
 
