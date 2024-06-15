@@ -5,6 +5,13 @@ import InputComponent from "../../components/input"
 import ButtonComponent from "../../components/Button"
 
 export default function Register() {
+
+    const statusOptions = [
+        { value: 'active', label: 'Ativo' },
+        { value: 'inactive', label: 'Inativo' },
+        { value: 'pending', label: 'Pendente' },
+    ];
+
     return (
         <Container>
             <TextTitle name={"Registro de Motos"} />
@@ -12,15 +19,15 @@ export default function Register() {
                 <ContainerContent>
                     <h1>Preencha as informações a baixo para registrar uma Moto 🏍️</h1>
                     <Form>
-                        <InputComponent label={"Código"} type="password" />
+                        <InputComponent label={"Código"} type="password" height="50px" />
                         <Space />
-                        <InputComponent label={"Modelo da moto"} type="text" />
+                        <InputComponent label={"Modelo da moto"} type="text" height="50px" />
                         <Space />
-                        <InputComponent label={"Cor"} type="text" />
+                        <InputComponent label={"Cor"} type="text" height="50px" />
                         <Space />
-                        <InputComponent label={"Valor"} type="text" />
+                        <InputComponent label={"Valor"} type="text" height="50px" />
                         <Space />
-                        <InputComponent label={"Status"} type="text" />
+                        <InputComponent label={"Status"} type="select" options={statusOptions} height="50px" />
                         <Space />
                         <ButtonComponent name="REGISTRAR" imgSrc="../../src/assets/icon/plus.png" />
                     </Form>
