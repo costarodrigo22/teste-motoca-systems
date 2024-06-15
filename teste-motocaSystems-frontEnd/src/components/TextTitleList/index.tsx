@@ -1,16 +1,48 @@
-import { Container, Line } from "./style";
+import { SearchInput, NewRecordButton, Container, ContainerLine, Line, ContainerBox, Span, Leitors } from "./style"
 
-interface TextTitleListProps {
+import { InputAdornment } from '@mui/material';
+import { Search as SearchIcon, Add as AddIcon } from '@mui/icons-material';
+
+interface TextTitleProps {
     name: string;
 }
 
-const TextTitleList: React.FC<TextTitleListProps> = ({ name }) => {
+
+const FilterComponent: React.FC<TextTitleProps> = ({ name }) => {
     return (
         <Container>
-            <span>{name}</span>
-            <Line />
-        </Container>
-    );
-}
+            <ContainerBox>
+                <Span>
+                    <span>{name}</span>
+                </Span>
+                <Leitors>
+                    <SearchInput
+                        variant="outlined"
+                        placeholder="Buscar por código, nome e cor"
+                        InputProps={{
+                            startAdornment: (
+                                <InputAdornment position="start">
+                                    <SearchIcon />
+                                </InputAdornment>
+                            ),
+                        }}
+                        sx={{ flexGrow: 1, marginRight: 2 }}
+                    />
+                    <NewRecordButton
+                        variant="contained"
+                        startIcon={<AddIcon />}
+                    >
+                        Novo Registro
+                    </NewRecordButton>
+                </Leitors>
+            </ContainerBox>
+            <ContainerLine>
+                <Line />
+            </ContainerLine>
 
-export default TextTitleList;
+        </Container>
+
+    );
+};
+
+export default FilterComponent;
