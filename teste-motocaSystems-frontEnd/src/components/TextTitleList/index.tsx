@@ -36,6 +36,7 @@ const FilterComponent: React.FC<TextTitleProps> = ({ name }) => {
                     </NewRecordButton>
                 </Leitors>
             </ContainerBox>
+
             <ContainerLine>
                 <Line />
             </ContainerLine>

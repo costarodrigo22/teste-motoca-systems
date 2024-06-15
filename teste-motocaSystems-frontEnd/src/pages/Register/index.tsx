@@ -1,7 +1,7 @@
 import { Container, ContainerContent, Form, ContainerControler, Space } from "./styles"
 
 import TextTitle from "../../components/TextTitle"
-import InputComponent from "../../components/input"
+import InputComponent from "../../components/Input"
 import ButtonComponent from "../../components/Button"
 
 export default function Register() {
