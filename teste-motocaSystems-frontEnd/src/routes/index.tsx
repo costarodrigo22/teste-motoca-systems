@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Edit from "@/pages/Edit";
-import Register from "@/pages/Register";
-import List from "@/pages/List";
+import Edit from "../pages/Edit";
+import Register from "../pages/Register";
+import List from "../pages/List";
 
 export default function Router() {
     return (
