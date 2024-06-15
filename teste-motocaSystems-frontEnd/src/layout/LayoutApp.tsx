@@ -1,7 +1,7 @@
 import { Outlet } from 'react-router-dom';
 import Header from '../components/header';
 
-const LayoutApp = () => {
+export default function LayoutApp() {
     return (
         <div>
             <Header />
@@ -10,6 +10,5 @@ const LayoutApp = () => {
             </main>
         </div>
     );
-};
+}
 
-export default LayoutApp;
