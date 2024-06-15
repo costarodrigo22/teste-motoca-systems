@@ -1,13 +1,12 @@
-import { GlobalStyles } from "@/styles/GlobalStyles"
-import Router from "@/routes/index"
+import { GlobalStyles } from "./styles/GlobalStyles"
+import Router from "./routes/Router"
 
 function App() {
 
   return (
     <>
-      <GlobalStyles>
-        <Router />
-      </GlobalStyles>
+      <GlobalStyles />
+      <Router />
     </>
   )
 }
