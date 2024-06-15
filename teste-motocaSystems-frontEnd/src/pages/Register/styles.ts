@@ -32,4 +32,18 @@ export const Form = styled.form`
   margin-right: 35%;
   display: flex;
   flex-direction: column;
+
+  @media (min-width: 381px) and (max-width: 559px) {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  @media (min-width: 560px) and (max-width: px) {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  @media (min-width: 150px) and (max-width: 380px) {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
 `
