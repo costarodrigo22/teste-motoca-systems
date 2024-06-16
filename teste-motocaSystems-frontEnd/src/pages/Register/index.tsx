@@ -19,15 +19,15 @@ export default function Register() {
                 <ContainerContent>
                     <h1>Preencha as informações a baixo para registrar uma Moto 🏍️</h1>
                     <Form>
-                        <InputComponent label={"Código"} type="password" height="50px" />
+                        <InputComponent label={"Código"} type="password" />
                         <Space />
-                        <InputComponent label={"Modelo da moto"} type="text" height="50px" />
+                        <InputComponent label={"Modelo da moto"} type="text" />
                         <Space />
-                        <InputComponent label={"Cor"} type="text" height="50px" />
+                        <InputComponent label={"Cor"} type="text" />
                         <Space />
-                        <InputComponent label={"Valor"} type="text" height="50px" />
+                        <InputComponent label={"Valor"} type="text" />
                         <Space />
-                        <InputComponent label={"Status"} type="select" options={statusOptions} height="50px" />
+                        <InputComponent label={"Status"} type="select" options={statusOptions} />
                         <Space />
                         <ButtonComponent name="REGISTRAR" imgSrc="../../src/assets/icon/plus.png" />
                     </Form>
