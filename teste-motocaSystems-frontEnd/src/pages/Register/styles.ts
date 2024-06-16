@@ -16,7 +16,7 @@ export const Container = styled.div`
     font-size: 19px;
   }
 `
-export const ContainerControler = styled.form``
+export const ContainerControler = styled.div``
 
 export const ContainerContent = styled.div`
   h1 {

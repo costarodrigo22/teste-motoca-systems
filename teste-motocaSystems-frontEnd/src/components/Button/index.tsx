@@ -7,9 +7,9 @@ interface ButtonComponentProps {
 
 const ButtonComponent: React.FC<ButtonComponentProps> = ({ name, imgSrc }) => {
     return (
-        <Button>
+        <Button type="submit">
             {imgSrc && <img src={imgSrc} alt={`${name} icon`} style={{ marginRight: '8px' }} />}
-            {name} </Button>
+            {name}  </Button>
     )
 }
 
