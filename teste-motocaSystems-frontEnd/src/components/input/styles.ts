@@ -9,7 +9,9 @@ export const InputWrapper = styled.div`
   margin-bottom: 16px;
 `
 
-export const StyledFormControl = styled(FormControl)``
+export const StyledFormControl = styled(FormControl)`
+  width: 100%;
+`
 
 export const StyledInputLabel = styled(InputLabel)`
   color: #e7e3fc;

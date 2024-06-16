@@ -10,6 +10,7 @@ interface InputComponentProps {
 }
 
 const InputComponent: React.FC<InputComponentProps> = ({ label, type = "text", fullWidth = true, options, ...props }) => {
+
     return (
         <InputWrapper>
             {type === 'select' ? (
@@ -34,6 +35,7 @@ const InputComponent: React.FC<InputComponentProps> = ({ label, type = "text", f
                     variant="outlined"
                     fullWidth={fullWidth}
                     type={type}
+                    sx={{ height: '50%' }}
                     {...props}
                 />
             )}

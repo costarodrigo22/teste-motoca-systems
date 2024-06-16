@@ -19,15 +19,15 @@ export default function Edit() {
                 <ContainerContent>
                     <h1>Edite as informações que preferir! 📝</h1>
                     <Form>
-                        <InputComponent label={"Código"} type="password" height="50px" />
+                        <InputComponent label={"Código"} type="password" />
                         <Space />
-                        <InputComponent label={"Modelo da moto"} type="text" height="50px" />
+                        <InputComponent label={"Modelo da moto"} type="text" />
                         <Space />
-                        <InputComponent label={"Cor"} type="text" height="50px" />
+                        <InputComponent label={"Cor"} type="text" />
                         <Space />
-                        <InputComponent label={"Valor"} type="text" height="50px" />
+                        <InputComponent label={"Valor"} type="text" />
                         <Space />
-                        <InputComponent label={"Status"} type="select" options={statusOptions} height="50px" />
+                        <InputComponent label={"Status"} type="select" options={statusOptions} />
                         <Space />
                         <ButtonComponent name="ATUALIZAR" imgSrc="../../src/assets/icon/update.svg" />
                     </Form>
