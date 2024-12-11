@@ -18,7 +18,7 @@ Bem-vindo ao teste de contratação para a vaga de Desenvolvedor Front-End. Nest
 
 O layout da aplicação está disponível no Figma. Certifique-se de seguir o design o mais próximo possível.
 
-[[Figma Layout]([https://www.figma.com/design/YqufsjX9hR7Qzk9mM359fH/Teste-Motoca-Systems?node-id=0-1&t=cMNbEIgJ2wKOufTm-1](https://www.figma.com/design/y78lfB8J1BRFh723tusguL/Teste-SCS?node-id=0-1&node-type=canvas&t=jonMXuYQP6LdAa6K-0))](#)
+[[Figma Layout]([https://www.figma.com/design/YqufsjX9hR7Qzk9mM359fH/Teste-Motoca-Systems?node-id=0-1&t=cMNbEIgJ2wKOufTm-1](https://www.figma.com/design/y78lfB8J1BRFh723tusguL/Teste-SCS?node-id=0-1&node-type=canvas&t=jonMXuYQP6LdAa6K-0)](#)
 
 ## 📚 Requisitos
 
